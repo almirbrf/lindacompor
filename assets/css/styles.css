@@ -65,7 +65,7 @@ img {
 
 .card__img {
   width: 328px;
-  border-radius: 0.9rem;
+  border-radius: 0.1rem;
 }
 
 .card__data {
@@ -73,7 +73,7 @@ img {
   background-color: var(--container-color);
   padding: 1.5rem 2rem;
   box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
-  border-radius: 0.6rem;
+  border-radius: 0.5rem;
   position: absolute;
   bottom: -9rem;
   left: 0;
