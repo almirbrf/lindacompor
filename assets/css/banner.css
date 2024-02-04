@@ -1,4 +1,5 @@
 .banner {
+    display: block;
     margin: 0 auto;
     width: 100%;
     height: auto;
@@ -32,13 +33,13 @@
 .change-manual, .change-auto {
     position: absolute;
     width: 100%;
-    margin-top: 25%;
+    margin-top:30%;
     justify-content: center;
     display: flex;
 }
   
 .change-manual .manual-btn, .change-auto div {
-    border: 1px solid #c6bbc823;
+    border: 1px solid #d7bbdd47;
     padding: 1px;
     border-radius: 3%;
     cursor: pointer;
@@ -56,7 +57,7 @@
 #radio1:checked ~ .change-auto .auto-btn1,
 #radio2:checked ~ .change-auto .auto-btn2,
 #radio3:checked ~ .change-auto .auto-btn3 {
-    background-color: #ba5ccb78;
+    background-color: #a457b196;
 }
 
 #radio1:checked ~ .first {
